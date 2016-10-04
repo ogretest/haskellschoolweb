@@ -1,7 +1,7 @@
 <ul.nav.nav-tabs>
   <li role="presentation" .active>
     <a href="/">
-      페이스북 그룹 
+      하스켈 학교 소개
   <li role="presentation">
     <a href="/projects">
       프로젝트들
