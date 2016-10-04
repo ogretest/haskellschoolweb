@@ -1,0 +1,15 @@
+.title ul {
+    list-style-type: none;
+    display: block;
+    position: absolute;
+    bottom: 3%;
+    right: 3%;
+}
+
+.title ul li {
+    display: inline;
+}
+
+.title {
+    position: relative;
+}

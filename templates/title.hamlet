@@ -1,2 +1,10 @@
-<h1.jumbotron>
-  하스켈 학교
+<div class="jumbotron title">
+  <h1>
+    하스켈 학교
+  <ul>
+    <li>
+      <a href="https://www.youtube.com/channel/UCFCHNEpqoXsh7Synqcj4p6g">
+        <img src="/static/img/youtube-icon.svg" alt="Haskell School Youtube Channel">
+    <li>
+      <a href="https://www.facebook.com/groups/1065398240148353/">
+        <img src="/static/img/facebook-icon.svg" alt="Haskell School Facebook Group">
