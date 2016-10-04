@@ -3,10 +3,13 @@
 ^{navbar}
 
 <.page-header>
-  <h2>페이스북 그룹
+  <h2>하스켈 학교
 
   <p>
-    격주로 있는 하스켈 학교 모임 공지사항이 올라오는 곳입니다. 그 이외에도 하스켈 소식들, 질답들이 올라옵니다.
+    하스켈 학교는 순수 함수 언어 <a href="https://www.haskell.org/">하스켈</a>을 함께 공부하는 열린 모임입니다.
 
-  <a href="https://www.facebook.com/groups/1065398240148353/">
-    https://www.facebook.com/groups/1065398240148353/
+  <h3>페이스북 그룹
+
+  <p>
+    <a href="https://www.facebook.com/groups/1065398240148353/">페이스북 그룹</a>에는 하스켈 학교 모임 공지사항, 하스켈 소식, 질의 응답이 올라옵니다. 하스켈에 관심 있으신 분은 모두 가입 가능합니다.
+
