@@ -29,4 +29,4 @@ database:
   poolsize: "_env:SQLITE_POOLSIZE:10"
 
 copyright: Except where otherwise noted, content on this site is licensed under a Creative Commons Attribution 4.0 International license
-#analytics: UA-YOURCODE
+analytics: UA-61779656-9
