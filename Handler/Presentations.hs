@@ -5,7 +5,6 @@ import Import
 
 getPresentationsR :: Handler Html
 getPresentationsR = do
-    let handlerName = "getPresentationsR" :: Text
     let title = $(hamletFile "templates/title.hamlet")
     let navbar = $(hamletFile "templates/navbar.hamlet")
     defaultLayout $ do

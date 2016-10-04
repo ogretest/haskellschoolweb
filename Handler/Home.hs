@@ -5,7 +5,6 @@ import Import
 
 getHomeR :: Handler Html
 getHomeR = do
-    let handlerName = "getHomeR" :: Text
     let title = $(hamletFile "templates/title.hamlet")
     let navbar = $(hamletFile "templates/navbar.hamlet")
     defaultLayout $ do
