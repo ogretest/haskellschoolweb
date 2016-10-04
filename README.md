@@ -5,6 +5,14 @@ HaskellSchoolWeb
 
 [haskellschool]: http://www.haskellschool.org
 
+# Prerequisite
+
+Install `yesod-bin`.
+
+```
+stack build yesod-bin cabal-install --install-ghc
+```
+
 # Build
 
 ```
