@@ -11,3 +11,6 @@
   <li role="try" .#{tryClass}>
     <a href="/try">
      체험하기
+  <li role="members" .#{membersClass}>
+    <a href="/members">
+     멤버들

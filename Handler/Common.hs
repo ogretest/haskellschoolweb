@@ -22,5 +22,6 @@ makeNavbar tabName =
       projectsClass = if tabName == "projects" then "active" else "" :: Text
       presentationsClass = if tabName == "presentations" then "active" else "" :: Text
       tryClass = if tabName == "try" then "active" else "" :: Text
+      membersClass = if tabName == "members" then "active" else "" :: Text
   in
       $(hamletFile "templates/navbar.hamlet")
