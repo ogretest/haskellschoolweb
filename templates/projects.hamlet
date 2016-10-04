@@ -3,25 +3,25 @@
 ^{navbar}
 
 <.page-header>
-  <h2>진행중인 프로젝트들
+  <h2>프로젝트
 
   <p>
-    하스켈 학교에서 진행중인 프로젝트들입니다.
+    하스켈 학교에서 함께 만드는 프로젝트들입니다.
 
 <.page-header>
   <h2> scheme
 
   <p>
-    R5RS표준에 맞는 스킴 인터프리터를 만드는 프로젝트입니다.
+    <a href="http://www.schemers.org/Documents/Standards/R5RS/">R5RS</a> 표준 Scheme 인터프리터를 만드는 프로젝트입니다.
 
   <a href="https://github.com/haskellschool/scheme">
     https://github.com/haskellschool/scheme
 
 <.page-header>
-  <h2> jarvis
+  <h2> Jarvis
 
   <p>
-    java linter를 만드는 프로젝트입니다.
+    Java linter를 만드는 프로젝트입니다.
 
   <a href="https://github.com/haskellschool/jarvis">
     https://github.com/haskellschool/jarvis
@@ -30,9 +30,7 @@
   <h2> haskellschoolweb
 
   <p>
-    <a href="http://www.yesodweb.com/">
-      Yesod
-    로 작성된 하스켈 학교 홈페이지입니다.
+    <a href="http://www.yesodweb.com/">Yesod</a>로 작성된 하스켈 학교 홈페이지입니다.
 
   <a href=https://github.com/haskellschool/haskellschoolweb"">
     https://github.com/haskellschool/haskellschoolweb
