@@ -8,6 +8,6 @@
   <li role="presentation" .#{presentationsClass}>
     <a href="/presentations">
      세미나
-  <li role="try">
+  <li role="try" .#{tryClass}>
     <a href="/try">
      체험하기
