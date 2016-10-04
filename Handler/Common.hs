@@ -1,6 +1,7 @@
 -- | Common handler functions.
 module Handler.Common where
 
+import Text.Hamlet          (hamletFile)
 import Data.FileEmbed (embedFile)
 import Import
 
@@ -15,3 +16,10 @@ getFaviconR = do cacheSeconds $ 60 * 60 * 24 * 30 -- cache for a month
 getRobotsR :: Handler TypedContent
 getRobotsR = return $ TypedContent typePlain
                     $ toContent $(embedFile "config/robots.txt")
+
+makeNavbar tabName =
+  let aboutClass = if tabName == "about" then "active" else "" :: Text
+      projectsClass = if tabName == "projects" then "active" else "" :: Text
+      presentationsClass = if tabName == "presentations" then "active" else "" :: Text
+  in
+      $(hamletFile "templates/navbar.hamlet")

@@ -76,7 +76,6 @@ instance Yesod App where
         -- you to use normal widget features in default-layout.
 
         let title = $(hamletFile "templates/title.hamlet")
-        let navbar = $(hamletFile "templates/navbar.hamlet")
         pc <- widgetToPageContent $ do
             addStylesheet $ StaticR css_bootstrap_css
             $(widgetFile "default-layout")
