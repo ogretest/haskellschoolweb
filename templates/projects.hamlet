@@ -1,16 +1,6 @@
-<h1.jumbotron>
-  하스켈 학교입니다
+^{title}
 
-<ul.nav.nav-tabs>
-  <li role="presentation">
-    <a href="/">
-      페이스북 그룹 
-  <li role="presentation" .active>
-    <a href="/projects">
-      프로젝트들
-  <li role="presentation">
-    <a href="/presentations">
-     세미나
+^{navbar}
 
 <.page-header>
   <h2>진행중인 프로젝트들
