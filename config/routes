@@ -7,3 +7,4 @@
 / HomeR GET
 /projects ProjectsR GET
 /presentations PresentationsR GET
+/try TryR GET
