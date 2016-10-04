@@ -36,3 +36,13 @@
   <a href="https://github.com/haskellschool/jarvis">
     https://github.com/haskellschool/jarvis
 
+<.page-header>
+  <h2> haskellschoolweb
+
+  <p>
+    <a href="http://www.yesodweb.com/">
+      Yesod
+    로 작성된 하스켈 학교 홈페이지입니다.
+
+  <a href=https://github.com/haskellschool/haskellschoolweb"">
+    https://github.com/haskellschool/haskellschoolweb
