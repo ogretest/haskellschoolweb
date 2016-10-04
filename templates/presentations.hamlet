@@ -1,0 +1,35 @@
+<h1.jumbotron>
+  하스켈 학교입니다
+
+<ul.nav.nav-tabs>
+  <li role="presentation">
+    <a href="/">
+      페이스북 그룹
+  <li role="presentation">
+    <a href="/projects">
+      프로젝트들
+  <li role="presentation" .active>
+    <a href="/presentations">
+     세미나
+
+<.page-header>
+  <h2>세미나
+
+  <p>
+    하스켈 학교 모임에서 진행되었던 세미나 영상 입니다.
+
+<.page-header>
+  <h2> Simple JSON Parser
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/zM_khuZ4DOU" frameborder="0" allowfullscreen></iframe>
+
+  <p>
+    2016. 09. 20 발표자 이동준
+
+<.page-header>
+  <h2> Lazy & Strict
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/qojdAPlWfk4" frameborder="0" allowfullscreen></iframe>
+
+  <p>
+    2016. 09. 20 발표자 박주형
