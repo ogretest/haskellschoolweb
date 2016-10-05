@@ -1,16 +1,16 @@
 <ul.nav.nav-tabs>
-  <li role="presentation" .#{aboutClass}>
+  <li role="about">
     <a href="/">
       하스켈 학교 소개
-  <li role="presentation" .#{projectsClass}>
+  <li role="projects">
     <a href="/projects">
       프로젝트들
-  <li role="presentation" .#{presentationsClass}>
+  <li role="presentations">
     <a href="/presentations">
      세미나
-  <li role="try" .#{tryClass}>
+  <li role="try">
     <a href="/try">
      체험하기
-  <li role="members" .#{membersClass}>
+  <li role="members">
     <a href="/members">
      멤버들

@@ -2,6 +2,7 @@
 module Handler.Common where
 
 import Text.Hamlet          (hamletFile)
+import Text.Julius (juliusFile)
 import Data.FileEmbed (embedFile)
 import Import
 
@@ -17,11 +18,5 @@ getRobotsR :: Handler TypedContent
 getRobotsR = return $ TypedContent typePlain
                     $ toContent $(embedFile "config/robots.txt")
 
-makeNavbar tabName =
-  let aboutClass = if tabName == "about" then "active" else "" :: Text
-      projectsClass = if tabName == "projects" then "active" else "" :: Text
-      presentationsClass = if tabName == "presentations" then "active" else "" :: Text
-      tryClass = if tabName == "try" then "active" else "" :: Text
-      membersClass = if tabName == "members" then "active" else "" :: Text
-  in
-      $(hamletFile "templates/navbar.hamlet")
+makeNavbar :: String -> Widget
+makeNavbar tabName = $(widgetFile "navbar") 
